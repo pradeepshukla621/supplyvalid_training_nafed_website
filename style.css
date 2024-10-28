@@ -1,0 +1,62 @@
+.top-header {
+    background-color: #F6F6F6;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    color: #000000;
+    padding: 8px 0px 8px 0px;
+}
+
+.rate {
+    min-width: fit-content;
+    padding: 0px 10px 0px 0px;
+}
+
+.top-header-right {
+    min-width: fit-content;
+    padding: 0px 0px 0px 10px;
+}
+
+.marquee-text {
+    color: #273C42;
+}
+
+.nafed-logo {
+    height: auto;
+    width: 50px;
+}
+
+.azadi-logo {
+    height: auto;
+    width: 80px;
+}
+
+.g20-logo {
+    height: auto;
+    width: 80px;
+}
+
+.bottom-header {
+    background-color: #273C42;
+    color: #ffffff;
+
+}
+
+th{
+    background-color: #273C42 !important;
+}
+
+/* Removing skip to navigation and content in small screen  */
+
+
+@media (max-width: 988px) {
+    .header-skip {
+        display: none;
+    }
+}
+
+/* hero section */
+.banner-img{
+    /* display: inline-block !important; */
+    height: 500px;
+    width: 600px;
+}
